@@ -1,0 +1,34 @@
+/*Cac the loai to hon HOAC khong khai bao ben trong @media an css o ngoai*/
+
+
+@media  (max-width:700px) {
+    h1{
+        color: red;
+    }
+    /*Vung css danh cho man hinh < 700 va > 500*/
+}
+@media (max-width: 500px) {
+    h1{
+        color: blue;
+    }
+    /*Vung CSS danh cho man hinh < 500*/
+}
+
+/* Định nghĩa animation quay */
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.active{
+    animation: rotate 3s linear infinite;
+}
+
+.khoi-lua-chon-video{
+    height: 300px;
+    overflow-y: scroll;
+}
